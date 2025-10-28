@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="48" viewBox="0 0 160 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="120%" y2="120%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="logo-shadow" x="-10%" y="-40%" width="130%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g filter="url(#logo-shadow)">
+    <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#logo-gradient)"/>
+    <path d="M16 30h10a4 4 0 004-4V24a4 4 0 00-4-4H18v-4h14v-4H16a4 4 0 00-4 4v12a4 4 0 004 4zm18 0h12a2 2 0 110 4H30v4h18v-8a4 4 0 00-4-4h-8v-4h12v-4H30v8a4 4 0 004 4z" fill="#f8fafc"/>
+    <path fill="#e0f2fe" opacity="0.35" d="M6 29c6 5 15 7 24 4 8-3 14-10 16-18 1-3 1-6 0-9z"/>
+  </g>
+  <text x="60" y="28" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#0f172a">
+    TaskFlow<span fill="#38bdf8"> Manager</span>
+  </text>
+</svg>
