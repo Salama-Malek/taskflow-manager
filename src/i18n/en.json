@@ -1,0 +1,97 @@
+{
+  "app": {
+    "title": "TaskFlow Manager",
+    "subtitle": "Visual productivity for teams and makers"
+  },
+  "navigation": {
+    "home": "Dashboard",
+    "statistics": "Statistics",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "board": {
+    "toDo": "To Do",
+    "inProgress": "In Progress",
+    "done": "Done",
+    "empty": "No tasks here yet."
+  },
+  "buttons": {
+    "add": "Add Task",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "messages": {
+    "added": "Task added successfully",
+    "updated": "Task updated",
+    "deleted": "Task deleted",
+    "welcome": "Plan, track, and celebrate progress.",
+    "statisticsSoon": "Statistics dashboard coming soon ✨"
+  },
+  "labels": {
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "dueDate": "Due Date",
+    "status": "Status",
+    "search": "Search tasks...",
+    "filter": "Filter",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "all": "All priorities",
+    "priorityLevels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
+  },
+  "modal": {
+    "addTitle": "Create a Task",
+    "editTitle": "Update Task",
+    "confirmDelete": "Are you sure you want to delete this task?",
+    "aboutTitle": "About Developer",
+    "aboutDescription": "Created by Salama Malek, Full-Stack Developer. Passionate about clean UI and scalable systems."
+  },
+  "pages": {
+    "home": {
+      "focus": "Stay focused with a clear view of priorities."
+    },
+    "about": {
+      "headline": "Meet the creator",
+      "content": "TaskFlow Manager was crafted to empower teams to collaborate with clarity and delight."
+    },
+    "settings": {
+      "headline": "Personalize your workspace",
+      "content": "Adjust appearance, language, and productivity preferences."
+    }
+  },
+  "statisticsPage": {
+    "title": "Productivity analytics",
+    "subtitle": "Track throughput, focus on at-risk tasks, and celebrate momentum with real-time insights.",
+    "cards": {
+      "total": "Total tasks",
+      "completed": "Completed",
+      "dueSoon": "Due soon (7 days)",
+      "overdue": "Overdue"
+    },
+    "sections": {
+      "progress": "Board progress",
+      "priority": "Priority mix",
+      "velocity": "Weekly throughput",
+      "upcoming": "Upcoming deadlines"
+    },
+    "labels": {
+      "completion": "complete",
+      "lastWeeks": "Past {{count}} weeks",
+      "noData": "No data",
+      "noUpcoming": "All caught up! Nothing due soon.",
+      "dueIn": "Due in {{count}}d",
+      "overdue": "{{count}}d late",
+      "dueToday": "Due today"
+    }
+  }
+}
