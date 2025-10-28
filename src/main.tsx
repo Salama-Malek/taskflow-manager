@@ -21,7 +21,7 @@ ReactDOM.createRoot(rootElement).render(
       <LanguageProvider>
         <ThemeProvider>
           <TaskProvider>
-            <BrowserRouter>
+            <BrowserRouter basename={import.meta.env.BASE_URL}>
               <Suspense fallback={<div className="p-8 text-center text-lg">Loading...</div>}>
                 <App />
               </Suspense>
