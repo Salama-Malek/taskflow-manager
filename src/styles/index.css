@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply antialiased bg-background-light text-surface-dark transition-colors duration-300 ease-out;
+}
+
+html.dark body {
+  @apply bg-background-dark text-surface-light;
+}
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface-light/50 dark:bg-surface-dark/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent-light/70 dark:bg-accent-dark/70 rounded-full;
+}
+
+.glass-panel {
+  @apply bg-surface-light/80 dark:bg-surface-dark/80 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-lg;
+}
+
+.rtl * {
+  font-family: theme("fontFamily.ar");
+}
+
+.ltr * {
+  font-family: theme("fontFamily.en");
+}
+
+.ru * {
+  font-family: theme("fontFamily.ru");
+}
