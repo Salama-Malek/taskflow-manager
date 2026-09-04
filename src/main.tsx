@@ -15,13 +15,15 @@ if (!rootElement) {
   throw new Error("Root element not found");
 }
 
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+
 ReactDOM.createRoot(rootElement).render(
   <StrictMode>
     <I18nextProvider i18n={i18n}>
       <LanguageProvider>
         <ThemeProvider>
           <TaskProvider>
-            <BrowserRouter>
+            <BrowserRouter basename={baseUrl}>
               <Suspense fallback={<div className="p-8 text-center text-lg">Loading...</div>}>
                 <App />
               </Suspense>
