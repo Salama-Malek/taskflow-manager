@@ -1,5 +1,9 @@
 # TaskFlow Manager
 
+![Deploy](https://github.com/Salama-Malek/taskflow-manager/actions/workflows/deploy.yml/badge.svg)
+
+Live demo: https://salama-malek.github.io/taskflow-manager/
+
 A drag-and-drop Kanban task board built with React, TypeScript, and Tailwind CSS.
 
 ## Overview
