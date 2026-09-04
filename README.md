@@ -4,6 +4,8 @@
 
 Live demo: https://salama-malek.github.io/taskflow-manager/
 
+![Screenshot of the app](docs/screenshot.jpg)
+
 A drag-and-drop Kanban task board built with React, TypeScript, and Tailwind CSS.
 
 ## Overview
